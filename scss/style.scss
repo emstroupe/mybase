@@ -1,9 +1,12 @@
 // VARIABLES
-$mybodybackground: lightcoral;
+$body-fontfamily: 'lino-type sabon', 'caslon', serif;
+$heading-fontfamily: 'franklin-gothic-extra-compre', sans-serif;
+$body-maxwidth: 30em;
+
+$color-midgrey: rgba(0,0,0,.5);
+$color-accent: rgb(32, 41, 40);
 
 // IMPORT PARTIALS
 @import 'partials/toc';
+@import 'partials/typography';
 
-body {
-    background-color: $mybodybackground; 
-} 

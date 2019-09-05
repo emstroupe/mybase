@@ -1,0 +1,61 @@
+/* BODY */
+
+body {
+    font-family: $body-fontfamily;
+    font-size: 100%;
+    line-height: 1.4;
+}
+
+/*  HEADING */
+
+h1, h2, h3 {
+    margin: .5em 0;
+}
+
+h1 {
+    font-family: $body-fontfamily;
+    font-size: 5em;
+    line-height: 1;
+}
+
+h2 {
+    font-family: $heading-fontfamily;
+    font-size: 2.225em;
+    line-height: 1.1;
+    letter-spacing: 7px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: $body-maxwidth;
+}
+
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+p {
+    font-family: $body-fontfamily;
+    max-width: $body-maxwidth;
+}
+
+blockquote {
+    font-family: $heading-fontfamily;  
+    max-width: 15em; 
+}
+
+cite {
+    display: inline-block;
+}
+
+/* TYPE SPECIMEN */
+
+.mainhead {
+    font-size: 5em;
+    color: $color-accent; 
+    margin-bottom: 0;
+}
+
+.subhead {
+    color: $color-midgrey;
+    margin-bottom: 0;
+}
