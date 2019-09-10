@@ -4,6 +4,7 @@ body {
     font-family: $body-fontfamily;
     font-size: 100%;
     line-height: 1.4;
+    color: $color-text-body;
 }
 
 /*  HEADING */
@@ -47,6 +48,18 @@ cite {
     display: inline-block;
 }
 
+/* LINKS */
+a { color: $color-links;}
+a:hover { color: $color-links-dark}
+
+/* HORIZONTAL RULE */
+hr {
+    border: 0;
+    height: 1px;
+    background: rgba(0,0,0,.1);
+    margin: 3em 0;
+}
+
 /* TYPE SPECIMEN */
 
 .mainhead {
@@ -57,5 +70,6 @@ cite {
 
 .subhead {
     color: $color-midgrey;
-    margin-bottom: 0;
+    margin: 0 0;
 }
+
