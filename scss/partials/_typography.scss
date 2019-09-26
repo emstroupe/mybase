@@ -10,7 +10,7 @@ body {
 /*  HEADING */
 
 h1, h2, h3 {
-    margin: .5em 0;
+    margin: .25em 0;
 }
 
 h1 {
@@ -20,12 +20,13 @@ h1 {
 }
 
 h2 {
-    font-family: $heading-fontfamily;
+    // font-family: $heading-fontfamily;
+    // text-transform: uppercase;
+    // letter-spacing: 7px;
+    @include condensed-text;
+    font-weight: 400;
     font-size: 2.225em;
     line-height: 1.1;
-    letter-spacing: 7px;
-    font-weight: 400;
-    text-transform: uppercase;
     max-width: $body-maxwidth;
 }
 

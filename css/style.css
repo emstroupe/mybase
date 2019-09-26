@@ -18,7 +18,7 @@ body {
 
 /*  HEADING */
 h1, h2, h3 {
-  margin: .5em 0; }
+  margin: .25em 0; }
 
 h1 {
   font-family: "lino-type sabon", "caslon", serif;
@@ -27,11 +27,11 @@ h1 {
 
 h2 {
   font-family: "franklin-gothic-extra-compre", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .5vw;
+  font-weight: 400;
   font-size: 2.225em;
   line-height: 1.1;
-  letter-spacing: 7px;
-  font-weight: 400;
-  text-transform: uppercase;
   max-width: 30em; }
 
 h3 {
@@ -78,6 +78,8 @@ button,
 .button {
   font-size: inherit;
   font-family: "franklin-gothic-extra-compre", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .5vw;
   background-color: #069;
   color: #fff;
   padding: 1em 2em;
@@ -163,3 +165,54 @@ body {
   background: rgba(0, 0, 0, 0.5);
   padding: 1em;
   text-align: center; }
+
+/* site header */
+.site-header, .site-footer {
+  background-color: #4b7a75;
+  padding: .7em 1em .5em 1em;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  .site-header h1, .site-footer h1 {
+    font-family: "franklin-gothic-extra-compre", sans-serif;
+    font-size: 1.5em;
+    margin: .65em 0 0 0;
+    /* to adjust baseline */
+    text-transform: uppercase;
+    letter-spacing: .25em; }
+  .site-header a, .site-footer a {
+    color: #fff;
+    text-decoration: none; }
+
+/* site footer */
+.site-footer {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+/* site navigation */
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /*  can use li {display: inline-block;} */ }
+
+.site-nav a {
+  display: block;
+  padding: 1em; }
+
+/* hero sections */
+.hero {
+  background-color: rgba(75, 122, 117, 0.7);
+  padding: 6em 1em;
+  text-align: center; }
+  .hero p, .hero h2 {
+    margin-left: auto;
+    margin-right: auto; }

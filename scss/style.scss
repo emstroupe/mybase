@@ -5,15 +5,23 @@ $body-maxwidth: 30em;
 
 //COLORS 
 $color-text-body: rgba(0,0,0,.85);
-$color-accent: rgb(75, 122, 117);
+$color-accent: rgba(75,122,117,1);
 $color-midgrey: rgba(0,0,0,.5);
 $color-links: #069;
 $color-links-dark: #035;
+$color-hero-bg: rgba(75,122,117,.7);
 
 //BREAKPOINTS 
 $breakpoint-small: 768px;
 $breakpoint-medium: 1050px;
 $breakpoint-large: 1250px;
+
+//MIXINS
+@mixin condensed-text {
+    font-family: $heading-fontfamily;
+    text-transform: uppercase;
+    letter-spacing: .5vw;
+}
 
 // IMPORT PARTIALS
 @import 'partials/toc';
@@ -22,3 +30,4 @@ $breakpoint-large: 1250px;
 @import 'partials/media';
 @import 'partials/layout';
 @import 'partials/grid';
+@import 'partials/structure';

@@ -3,7 +3,8 @@
 button, 
 .button {
     font-size: inherit;
-    font-family: $heading-fontfamily;
+    // font-family: $heading-fontfamily;
+    @include condensed-text;
     background-color: $color-links;
     color: #fff;
     padding: 1em 2em;
