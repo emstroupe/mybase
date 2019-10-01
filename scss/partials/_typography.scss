@@ -58,9 +58,27 @@ hr {
     border: 0;
     height: 1px;
     background: rgba(0,0,0,.1);
-    margin: 3em 0;
+    margin: 4em 0;
 }
 
+/* HELPER */
+.sectionhead {
+    font-family: $heading-fontfamily;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 1.25em;
+    line-height: 1.25;
+    letter-spacing: .2em;
+    text-align: center;
+    margin-bottom: 3em;
+}
+
+.meta {
+    display: block;
+    font-size: .8em;
+    color: $color-midgrey;
+    margin: 0 0 2em 0;
+}
 /* TYPE SPECIMEN */
 
 .mainhead {
